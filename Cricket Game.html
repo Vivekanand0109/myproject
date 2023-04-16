@@ -1,0 +1,164 @@
+
+<!-- saved from url=(0057)file:///C:/Users/subodh%20gurram/OneDrive/Desktop/c1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>
+            Cricket Game
+        </title>
+        <style>
+            tr{
+                color:black;
+                font-size: 20px;
+            }
+            td:hover
+            {
+                background-color: antiquewhite;
+            }
+            .res
+            {
+              width:200px;
+              border:20px
+              color: blueviolet;
+              background-color: antiquewhite;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        <h1 style="color:blueviolet;" align="center">PLay The Game And Win Gift</h1>
+        
+       <table border="" align="center">
+        <tbody><tr>
+            <td>
+              Who Played First ODI In 2004
+            </td>
+            <td>
+               Who's Jersey Number Is 18
+            </td>
+            <td>
+            The Indian Player Who Born IN Nagpur
+            </td>
+            <td>
+                The First ODI Deut On 18 DEC 1989
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+              Who Born On 7 July In INDIA Team
+            </td>
+            <td>
+              Who's Nick Name IS Chiku
+            </td>
+            <td>
+                The Indian Player Who Born IN April 30
+            </td>
+            <td>
+                The Person Played 463 ODI'S
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+              Who Is The Captained For CSk
+            </td>
+            <td>
+              Who Recive The Arjuna Award In 2013
+            </td>
+            <td>
+                The Person Has 2 National Awards
+            </td>
+            <td>
+                The Couch For This Person iS Ramakanth
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+              <input type="text" id="t1">
+              <br>
+              <button onclick="get1()">Sumbit</button>
+              <div id="r1"></div>
+            </td>
+            <td>
+              <input type="text" id="t2">
+              <br>
+              <button onclick="get2()">Sumbit</button>
+              <div id="r2"></div>
+            </td>
+            <td>
+              <input type="text" id="t3">
+              <br>
+              <button onclick="get3()">Sumbit</button>
+              <div id="r3"></div>
+            </td>
+            <td>
+              <input type="text" id="t4">
+              <br>
+              <button onclick="get4()">Sumbit</button>
+              <div id="r4"></div>
+            </td>
+        </tr>
+       </tbody></table>
+       <br>
+       <br>
+       <div class="res">
+        A. VIRAT KOHILI<br>
+        B. ROHIT SHARMA<br>
+        C. SACHIN TENDULKAR<br>
+        D. MS DHONI<br>
+        <br>
+       </div>
+
+       <button style="background-color: blueviolet;" onclick="finalclick()" id="button1">Final Submit</button>
+       <script>
+        p=0
+        function get1()
+        {
+            var a=document.getElementById("t1").value;
+            if( a=='D')
+            {
+                p=p+1;
+            }
+        }
+        function get2()
+        {
+            var b=document.getElementById("t2").value;
+            if( b=='A')
+            {
+                p=p+1;
+            }
+        }
+        function get3()
+        {
+            var c=document.getElementById("t3").value;
+            if( c=='B')
+            {
+                p=p+1;
+            }
+        }
+        function get4()
+        {
+            var d=document.getElementById("t4").value;
+            if( d=='C')
+            {
+                p=p+1;
+            }
+        }
+        function finalclick()
+        {
+            if (p==4)
+            {
+                document.write("Won The Game");
+                alert("WON THE GAME COLLECT THE GIFT");
+            }
+            else{
+                document.write("Lost The Game");
+                alert("LOST THE GAME TRY AGAIN");
+            }
+        }
+
+       </script>
+       
+    
+</body></html>
